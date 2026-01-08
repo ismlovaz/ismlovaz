@@ -1,0 +1,159 @@
+{
+    "Header": {
+        "home": "Home",
+        "approach": "Approach",
+        "about": "About",
+        "capabilities": "Capabilities",
+        "resume": "Resume",
+        "menu": "Menu"
+    },
+    "Hero": {
+        "greeting": "Hello! I'm",
+        "role": "Full-Stack Architect",
+        "location": "Based in Seoul, South Korea",
+        "status": "Open to work",
+        "name": "Aziz",
+        "description": "I build scalable, high-performance web applications with a focus on clean architecture and user experience.",
+        "services": {
+            "fullstack": "Full-Stack Development",
+            "saas": "SaaS Architecture",
+            "system": "System Design"
+        }
+    },
+    "Approach": {
+        "title": "My Approach",
+        "subtitle": "A precise engineering process for scalable results.",
+        "steps": {
+            "0": {
+                "title": "The Blueprint Phase",
+                "description": "I don't guess—I plan. Before writing a single line of code, I translate your ideas into a concrete technical specification."
+            },
+            "1": {
+                "title": "Data Architecture",
+                "description": "A robust application starts with the database. I visually design your database schema (ERD) upfront, defining relationships and data integrity rules."
+            },
+            "2": {
+                "title": "Clean Implementation",
+                "description": "I build systems, not just pages. Using strict TypeScript and modular architecture, I write code that is self-documenting and easy to extend."
+            },
+            "3": {
+                "title": "Transparent Handover",
+                "description": "You own everything. I deploy the project directly to your infrastructure and provide a clean Git repository with full commit history."
+            }
+        }
+    },
+    "Capabilities": {
+        "title": "Capabilities",
+        "instruction": "Try clicking & dragging"
+    },
+    "Work": {
+        "title": "Projects",
+        "subtitle": "Selected production apps and experiments.",
+        "liveSystem": "Live System",
+        "inDevelopment": "In Development",
+        "items": {
+            "eventlabs": {
+                "title": "EventLabs",
+                "description": "A comprehensive SaaS platform for event management with real-time collaboration."
+            },
+            "manga": {
+                "title": "Manga Reading App",
+                "description": "Mobile-first reading experience with offline support."
+            },
+            "clipper": {
+                "title": "AI Podcast Clipper",
+                "description": "Automated viral clips generator using AI."
+            }
+        }
+    },
+    "About": {
+        "title": "About",
+        "greeting": "Hey, I'm Aziz",
+        "role": "Full-Stack Software Engineer",
+        "intro": "I am a <highlight>{role}</highlight> focused on building scalable web applications and SaaS platforms. My primary expertise lies in the modern JavaScript ecosystem (<highlight>{stack}</highlight>) backed by solid database architecture.",
+        "philosophy": "My development philosophy is grounded in thorough preparation. I prioritize detailed technical planning, architectural design, and clear specifications before implementation begins. This approach ensures predictable results, stability, and a scalable foundation for your project.",
+        "location": "Currently based in <highlight>{location}</highlight> 📍.",
+        "viewResume": "View Resume",
+        "sections": {
+            "experience": "Work Experience",
+            "connect": "Connect"
+        }
+    },
+    "Resume": {
+        "back": "Back to About",
+        "download": "Download PDF",
+        "title": "Aziz Ismailov",
+        "role": "Full-Stack Software Engineer & SaaS Architect",
+        "location": "Seoul, South Korea",
+        "sections": {
+            "summary": "Professional Summary",
+            "experience": "Work Experience",
+            "projects": "Key Projects",
+            "skills": "Technical Skills",
+            "education": "Education"
+        },
+        "summaryText": {
+            "p1": "Business-Minded Full-Stack Engineer based in Seoul with 5+ years of experience in web development. I specialize in building scalable SaaS platforms and complex web applications using the modern JavaScript ecosystem (Next.js, TypeScript) backed by robust database architecture.",
+            "p2": "Uniquely positioned at the intersection of Engineering and Business Strategy. My background in International Business allows me to translate complex business requirements into technical blueprints that drive value. I follow an 'Architecture-First' philosophy: prioritizing detailed planning, data modeling, and clean system design to deliver assets that are secure, maintainable, and scalable."
+        },
+        "items": {
+            "contractor": {
+                "title": "Independent Contractor",
+                "role": "SaaS Architect & Full-Stack Engineer",
+                "location": "Seoul & Remote",
+                "points": [
+                    "Architecting and developing MVP and SaaS solutions for startups, focusing on scalability and clean code.",
+                    "Conducting technical audits and providing architectural roadmaps ('Blueprints') for clients before development begins to minimize risks.",
+                    "Key Achievement: Engineered EventLabs, a real-time event tracking platform handling high-volume webhooks with 99.9% uptime."
+                ]
+            },
+            "freelance": {
+                "title": "Freelance",
+                "role": "Full-Stack Web Developer",
+                "location": "Remote",
+                "points": [
+                    "Built a strong reputation through word-of-mouth referrals, delivering 20+ web solutions ranging from e-commerce platforms to internal CRM dashboards.",
+                    "Managed the full software development lifecycle: from initial client consultation and deployment to support.",
+                    "Migrated legacy PHP/Laravel applications to modern modular architectures, significantly improving performance and maintainability."
+                ]
+            },
+            "intern": {
+                "title": "Ministry of Economy of the Kyrgyz Republic",
+                "role": "IT Department Intern",
+                "location": "Bishkek, Kyrgyzstan",
+                "points": [
+                    "Assisted the IT department in maintaining internal network infrastructure and software systems.",
+                    "Gained hands-on experience in enterprise-level IT operations and government sector data security protocols.",
+                    "Collaborated with senior engineers to troubleshoot hardware and software issues for ministry staff."
+                ]
+            }
+        },
+        "projects": {
+            "eventlabs": {
+                "title": "EventLabs — Real-Time Event Tracking SaaS",
+                "desc": "Built a robust system for developers to track app events via webhooks. Implemented a reliable queue system for instant Discord notifications, ensuring data integrity during traffic spikes."
+            },
+            "manga": {
+                "title": "Manga Reading Platform (High-Load Web App)",
+                "desc": "Engineered a content-heavy platform managing thousands of titles with Many-to-Many relationships. Optimized frontend caching strategies to achieve <100ms page load times, replicating top-tier industry performance."
+            }
+        },
+        "skillCategories": {
+            "core": "Core Stack & Language",
+            "backend": "Backend & Architecture",
+            "database": "Database",
+            "devops": "DevOps & Tools"
+        },
+        "education": {
+            "school": "Inha University",
+            "location": "South Korea",
+            "degree": "International Business & Trade (Concentration in CS/Software Engineering)",
+            "desc": "Combined business studies with extensive self-directed coursework in Computer Science. Chosen path to bridge the gap between technical execution and business strategy."
+        }
+    },
+    "Footer": {
+        "title": "Interested in working together?",
+        "cta": "Get in Touch",
+        "rights": "All rights reserved."
+    }
+}
