@@ -8,11 +8,13 @@ import { Footer } from '@/components/Footer';
 import meImage from '@/assets/me.jpg'
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { useUpworkMode } from '@/hooks/useUpworkMode';
 
 export function AboutContent() {
     const t = useTranslations('About');
     const heroT = useTranslations('Hero');
     const resumeT = useTranslations('Resume');
+    const isUpworkMode = useUpworkMode();
 
     return (
         <div className="relative min-h-screen bg-background text-foreground selection:bg-foreground selection:text-background">
@@ -91,10 +93,18 @@ export function AboutContent() {
                     <section className="space-y-6 pt-8 border-t border-border/40">
                         <h2 className="text-lg font-medium text-foreground">{t('sections.connect')}</h2>
                         <div className="flex gap-4">
-                            <a href="mailto:azizismailov872872@gmail.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">Email</a>
+                            {!isUpworkMode && (
+                                <>
+                                    <a href="mailto:azizismailov872872@gmail.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">Email</a>
+                                </>
+                            )}
                             <a href="https://github.com/ismlovaz" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">GitHub</a>
-                            <a href="https://www.linkedin.com/in/azizismailov/" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">LinkedIn</a>
-                            <a href="https://t.me/tm872872" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">Telegram</a>
+                            {!isUpworkMode && (
+                                <>
+                                    <a href="https://www.linkedin.com/in/azizismailov/" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">LinkedIn</a>
+                                    <a href="https://t.me/tm872872" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">Telegram</a>
+                                </>
+                            )}
                         </div>
                     </section>
                 </div>
