@@ -1,5 +1,5 @@
 "use client";
-import Link from 'next/link';
+import { Link } from '../i18n/navigation';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { useTheme } from 'next-themes';
 import { useState, useEffect } from 'react';
@@ -86,6 +86,12 @@ export const Header = () => {
               className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors duration-300"
             >
               {t('capabilities')}
+            </Link>
+            <Link
+              href="/terms"
+              className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors duration-300"
+            >
+              {t('terms')}
             </Link>
 
             {/* Resume Link - Styled distinctively */}

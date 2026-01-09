@@ -17,14 +17,14 @@ const projects = [
   },
   {
     id: 'manga',
-    tags: ['React Native', 'GraphQL', 'Redis'],
+    tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Elysia.js', 'Cloudflare'],
     span: 'col-span-1',
     statusKey: 'inDevelopment',
     isLive: false
   },
   {
     id: 'clipper',
-    tags: ['Python', 'OpenAI', 'FFmpeg'],
+    tags: ['Python', 'Next.js', 'TypeScript', 'Modal', 'AWS', 'GemeniAPI', 'FFmpeg'],
     span: 'col-span-1',
     statusKey: 'inDevelopment',
     isLive: false

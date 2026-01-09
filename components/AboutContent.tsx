@@ -65,12 +65,19 @@ export function AboutContent() {
                                 })}
                             </p>
 
-                            <div className="pt-2">
+                            <div className="pt-2 flex items-center gap-6">
                                 <a
                                     href="/resume"
                                     className="inline-flex items-center gap-2 text-sm font-medium text-foreground border-b border-border/50 pb-0.5 hover:border-foreground transition-colors group"
                                 >
                                     {t('viewResume')}
+                                    <ArrowUpRight className="w-3.5 h-3.5 opacity-70 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                                </a>
+                                <a
+                                    href="/terms"
+                                    className="inline-flex items-center gap-2 text-sm font-medium text-foreground border-b border-border/50 pb-0.5 hover:border-foreground transition-colors group"
+                                >
+                                    {t('viewTerms')}
                                     <ArrowUpRight className="w-3.5 h-3.5 opacity-70 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                                 </a>
                             </div>

@@ -5,11 +5,12 @@
         "about": "About",
         "capabilities": "Capabilities",
         "resume": "Resume",
+        "terms": "Terms",
         "menu": "Menu"
     },
     "Hero": {
         "greeting": "Hello! I'm",
-        "role": "Full-Stack Architect",
+        "role": "Full-Stack Software Engineer",
         "location": "Based in Seoul, South Korea",
         "status": "Open to work",
         "name": "Aziz",
@@ -22,23 +23,23 @@
     },
     "Approach": {
         "title": "My Approach",
-        "subtitle": "A precise engineering process for scalable results.",
+        "subtitle": "I bridge the gap between abstract ideas and engineered reality.",
         "steps": {
             "0": {
-                "title": "The Blueprint Phase",
-                "description": "I don't guess—I plan. Before writing a single line of code, I translate your ideas into a concrete technical specification."
+                "title": "Discovery & Technical Roadmap",
+                "description": "Many clients have a vision but lack the technical clarity to execute it. I fix that. I act as your technical partner: I help you refine your requirements, choose the right tech stack, and translate abstract ideas (e.g., 'I need a booking system') into a concrete, written technical specification before we even discuss the price."
             },
             "1": {
-                "title": "Data Architecture",
-                "description": "A robust application starts with the database. I visually design your database schema (ERD) upfront, defining relationships and data integrity rules."
+                "title": "Visual Data Architecture",
+                "description": "Code is temporary, data is forever. I prioritize logic over UI. Using professional ERD tools, I visualize your database structure upfront—defining how your Users, Orders, and Products relate. This architectural blueprint prevents the 'spaghetti structure' that kills projects when they try to scale."
             },
             "2": {
-                "title": "Clean Implementation",
-                "description": "I build systems, not just pages. Using strict TypeScript and modular architecture, I write code that is self-documenting and easy to extend."
+                "title": "Scalable Engineering",
+                "description": "I build assets, not just pages. Using strict TypeScript and modular architecture, I write code that is self-documenting and decoupled. This ensures that if you hire a team in the future, they won't have to rewrite my code—they will thank you for its clarity and structure."
             },
             "3": {
-                "title": "Transparent Handover",
-                "description": "You own everything. I deploy the project directly to your infrastructure and provide a clean Git repository with full commit history."
+                "title": "Zero Vendor Lock-in",
+                "description": "You keep the keys. I deploy the project directly to your infrastructure (Vercel, AWS, VPS) and provide a clean Git repository with full commit history. You maintain 100% ownership of your code and data. No hidden dependencies, no hostage situations."
             }
         }
     },
@@ -74,6 +75,7 @@
         "philosophy": "My development philosophy is grounded in thorough preparation. I prioritize detailed technical planning, architectural design, and clear specifications before implementation begins. This approach ensures predictable results, stability, and a scalable foundation for your project.",
         "location": "Currently based in <highlight>{location}</highlight> 📍.",
         "viewResume": "View Resume",
+        "viewTerms": "Terms of cooperation",
         "sections": {
             "experience": "Work Experience",
             "connect": "Connect"
@@ -112,7 +114,7 @@
                 "role": "Full-Stack Web Developer",
                 "location": "Remote",
                 "points": [
-                    "Built a strong reputation through word-of-mouth referrals, delivering 20+ web solutions ranging from e-commerce platforms to internal CRM dashboards.",
+                    "Built a strong reputation through word-of-mouth referrals, delivering advanced web solutions ranging from e-commerce platforms to internal CRM dashboards.",
                     "Managed the full software development lifecycle: from initial client consultation and deployment to support.",
                     "Migrated legacy PHP/Laravel applications to modern modular architectures, significantly improving performance and maintainability."
                 ]
@@ -155,5 +157,53 @@
         "title": "Interested in working together?",
         "cta": "Get in Touch",
         "rights": "All rights reserved."
+    },
+    "Terms": {
+        "title": "How We Work Together",
+        "subtitle": "Clear principles for a partnership built on trust.",
+        "download": "Download Agreement",
+        "versions": {
+            "en": "English Version",
+            "ko": "Korean Version (한국어)",
+            "ru": "Russian Version (Русский)"
+        },
+        "sections": {
+            "0": {
+                "title": "The Blueprint (With a Human Touch)",
+                "content": "We rely on the Technical Specification to keep the project on track and within budget. However, I am a partner, not a robot.\n\n**The Rule**: Major changes that alter the logic or design (e.g., \"Let's add a new page\") are new tasks.\n**The Exception**: Small, reasonable tweaks that improve the user experience (e.g., \"Can we make this text bold?\" or \"Let's swap these two buttons\") are on the house. I want the product to be perfect just as much as you do."
+            },
+            "1": {
+                "title": "My \"High Confidence\" Deadline Guarantee",
+                "content": "I take timelines seriously.\n\n**The Promise**: If I miss the final deadline due to my own fault, I will apply a 15% discount for every week of delay.\n**The Condition (Two-Way Street)**: This guarantee applies when I have everything I need. If the delay is caused by waiting for your feedback, assets, or credentials, the deadline naturally shifts. I can’t build without bricks!"
+            },
+            "2": {
+                "title": "Revisions vs. Polish",
+                "content": "Perfection is a process. For every delivered milestone, we have 2 Rounds of Revisions.\n\n**What this covers**: Adjusting logic, design polish, and making sure everything works as envisioned.\n**The Goal**: To reach a \"Definition of Done\" efficiently without getting stuck in endless feedback loops."
+            },
+            "3": {
+                "title": "30-Day \"No-Headache\" Warranty",
+                "content": "I take full responsibility for my work.\n\n**My Fault = Free Fix**: If a bug is caused by my code, my oversight, or my logic error - I fix it immediately and for free. No questions asked. This applies for 30 days after delivery.\n**External Factors**: Issues caused by 3rd-party updates (e.g., hosting changes, API updates) or code modifications by others are separate support tasks."
+            },
+            "4": {
+                "title": "Stress-Free Deployment (You Own Everything)",
+                "content": "Zero Vendor Lock-in. I handle the entire technical setup - you don't need to touch the terminal.\n\n**The Process**: I will guide you to create an account on the hosting platform (e.g., Vercel, VPS) so that you are the legal owner of the account and billing.\n**My Job**: Once you give me access, I handle the rest: server configuration, domain connection, SSL, and deployment.\n**Result**: You get a turnkey, working product. I hand over the code and keys, and you retain 100% ownership."
+            },
+            "5": {
+                "title": "Communication",
+                "content": "I am based in Seoul (GMT+9) and work asynchronously to maximize focus.\n\n**Reliability**: I reply to all messages within 24 hours.\n**Transparency**: You won't have to chase me. I provide proactive updates so you always know the status of your project."
+            },
+            "6": {
+                "title": "Input Materials (Design & Content)",
+                "content": "To build a high-quality product, I need high-quality inputs.\n\n**Design**: I am a Software Architect, not a Graphic Designer. You are responsible for providing the design mockup (Figma, Photoshop, or Sketch). My job is to turn that design into pixel-perfect, functioning code.\n**Note**: If you don't have a design, I can build a clean, structural UI using modern best practices (Shadcn/UI), but it won't be a custom artistic design.\n**Content**: You provide the text, logos, and images. If they aren't ready, I will use placeholders (Lorem Ipsum) to keep development moving. This ensures we don't delay the technical launch waiting for a copywriter."
+            },
+            "7": {
+                "title": "The Fine Print (Important Details)",
+                "content": "**Project Pausing (The \"Ghost\" Clause)**: I schedule my time specifically for you. If you become unresponsive for more than 10 business days, the project is considered \"Paused.\" To restart a paused project, we will need to schedule a new timeline based on my current availability.\n\n**Portfolio Rights**: I am proud of what we build together. I reserve the right to display the finished project in my portfolio (excluding any sensitive data). If you require strict confidentiality (NDA), please let me know before we start.\n\n**Third-Party Costs**: My fee covers development. It does not cover ongoing costs for Hosting (e.g., Vercel, AWS), Domain names, Paid APIs or Plugins. I will always advise you on these costs upfront."
+            }
+        },
+        "cta": {
+            "approachText": "Want to know the fine print?",
+            "approachButton": "View Cooperation Terms ->"
+        }
     }
 }

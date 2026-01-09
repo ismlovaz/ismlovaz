@@ -1,7 +1,6 @@
 # Hi there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> I'm Aziz
 
-### Full-Stack Software Engineer & SaaS Architect
-Based in Seoul, South Korea 📍
+### Full-Stack Software Engineer & SaaS Architect Based in Seoul, South Korea 📍
 
 I specialize in building scalable web applications and SaaS platforms. I don't just write code; I engineer digital assets with a focus on **stability, data integrity, and maintainability**.
 
@@ -46,6 +45,10 @@ Here is why clients and teams enjoy working with me:
 
 ### 📫 Connect with me
 * **Freelance / Collaboration:** [My Upwork Profile](https://www.upwork.com/freelancers/~0195d40bf6d7c37dca)
-* **Telegram:** @tm872872
+* **Terms of cooperation | Opportunities:** [ismlovaz.vercel.app](https://ismlovaz.vercel.app/en/terms)
+* **Resume:** [ismlovaz.vercel.app](https://ismlovaz.vercel.app/en/resume)
+* **Website:** [ismlovaz.vercel.app](https://ismlovaz.vercel.app/en)
+* **Telegram:** [@tm872872](https://t.me/tm872872)
+* **Linkedin:** [Aziz Ismailov](https://www.linkedin.com/in/azizismailov)
 * **Email:** azizismailov872872@gmail.com
 * **Location:** Seoul, South Korea 📌
