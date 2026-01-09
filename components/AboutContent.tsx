@@ -100,7 +100,9 @@ export function AboutContent() {
                 </div>
             </main>
 
-            <Footer />
+            <React.Suspense fallback={null}>
+                <Footer />
+            </React.Suspense>
         </div>
     );
 }

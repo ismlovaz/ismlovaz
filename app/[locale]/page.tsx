@@ -5,6 +5,7 @@ import { Capabilities } from '@/components/Capabilities';
 import { Work } from '@/components/Work';
 import { Footer } from '@/components/Footer';
 import { BackgroundLayer } from '@/components/BackgroundLayer';
+import { Suspense } from 'react';
 
 import { setRequestLocale } from 'next-intl/server';
 
@@ -21,11 +22,15 @@ export default async function Home({
             <BackgroundLayer />
             <Header />
             <main>
-                <Hero />
+                <Suspense fallback={null}>
+                    <Hero />
+                </Suspense>
                 <Approach />
                 <Work />
                 <Capabilities />
-                <Footer />
+                <Suspense fallback={null}>
+                    <Footer />
+                </Suspense>
             </main>
         </div>
     );
