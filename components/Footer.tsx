@@ -43,9 +43,11 @@ export const Footer = () => {
         <div className="border-t border-foreground/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <div className="flex-1 flex justify-center md:justify-start gap-4">
             <a href="https://github.com/ismlovaz" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">GitHub</a>
-            <a href="https://www.linkedin.com/in/azizismailov/" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">LinkedIn</a>
             {!isUpworkMode && (
-              <a href="https://t.me/tm872872" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">Telegram</a>
+              <>
+                <a href="https://www.linkedin.com/in/azizismailov/" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">LinkedIn</a>
+                <a href="https://t.me/tm872872" className="text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4 decoration-border/50">Telegram</a>
+              </>
             )}
           </div>
 
@@ -60,7 +62,7 @@ export const Footer = () => {
               </a>
             )}
             {isUpworkMode && (
-              <span className="text-xs text-muted-foreground/60 italic">Communicating exclusively via Upwork.</span>
+              <span className="text-xs text-muted-foreground/60 italic text-right max-w-xs">Note: Per Upwork&apos;s Terms of Service, I do not communicate or accept payments outside of the Upwork platform for clients found through Upwork. Please use the button above to hire me.</span>
             )}
           </div>
         </div>

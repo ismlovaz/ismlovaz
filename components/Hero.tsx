@@ -106,10 +106,12 @@ export const Hero = () => {
           {/* Left Column */}
           <div className="flex flex-col gap-2 items-center md:items-start pl-2">
             <div className="flex items-center gap-3">
-              <a href="https://www.linkedin.com/in/azizismailov" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors text-foreground">
-                <Linkedin className="w-5 h-5" strokeWidth={1.5} />
-              </a>
-              <a href="https://www.linkedin.com/in/azizismailov" target="_blank" rel="noopener noreferrer" className="px-3 py-0.5 rounded-full border border-blue-500/30 bg-blue-500/5 text-blue-600 dark:text-blue-400 text-xs font-semibold uppercase tracking-wider flex items-center gap-2 hover:bg-blue-500/10 transition-colors">
+              {!isUpworkMode && (
+                <a href="https://www.linkedin.com/in/azizismailov" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors text-foreground">
+                  <Linkedin className="w-5 h-5" strokeWidth={1.5} />
+                </a>
+              )}
+              <a href={isUpworkMode ? undefined : "https://www.linkedin.com/in/azizismailov"} target={isUpworkMode ? undefined : "_blank"} rel={isUpworkMode ? undefined : "noopener noreferrer"} className={`px-3 py-0.5 rounded-full border border-blue-500/30 bg-blue-500/5 text-blue-600 dark:text-blue-400 text-xs font-semibold uppercase tracking-wider flex items-center gap-2 ${!isUpworkMode && "hover:bg-blue-500/10 transition-colors"}`}>
                 <span className="relative flex h-1.5 w-1.5">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-blue-600 dark:bg-blue-400"></span>
