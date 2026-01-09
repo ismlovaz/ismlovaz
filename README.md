@@ -2,7 +2,7 @@
 
 ### Full-Stack Software Engineer & SaaS Architect Based in Seoul, South Korea 📍
 
-I specialize in building scalable web applications and SaaS platforms. I don't just write code; I engineer digital assets with a focus on **stability, data integrity, and maintainability**.
+I specialize in building scalable web applications, SaaS platforms and advanced web applications. I don't just write code; I engineer digital assets with a focus on **stability, data integrity, and maintainability**.
 
 My philosophy is **"Architecture First"**. I prioritize detailed technical planning and database design before implementation begins, ensuring predictable results and zero "spaghetti code."
 
@@ -39,7 +39,7 @@ Here is why clients and teams enjoy working with me:
 
 * **[EventLabs (SaaS)](https://event-labs-three.vercel.app/)** — A real-time event tracking platform for developers with Discord notifications - [Github](https://github.com/ismlovaz/event-labs)
 * **Manga Reading Platform (in progress)** — A complex content platform with high-load DB architecture (inspired by Mangalib.me)
-* **AI Podcast Clipper (in progress)** — *In development.* A Python/Next.js tool for extracting viral moments from audio.
+* **AI Podcast Clipper (in progress)** — *In development.* A Python/Next.js tool for extracting viral moments from video podcasts.
 
 ---
 
