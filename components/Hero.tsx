@@ -6,9 +6,11 @@ import heroImage from '@/assets/3d-man.png';
 import { Linkedin } from 'lucide-react';
 import handIcon from '@/assets/2.avif';
 import { useTranslations } from 'next-intl';
+import { useUpworkMode } from '@/hooks/useUpworkMode';
 
 export const Hero = () => {
   const t = useTranslations('Hero');
+  const isUpworkMode = useUpworkMode();
 
   return (
     <section id="home" className="min-h-screen flex flex-col items-center justify-center pt-32 pb-12 font-mono">
@@ -121,9 +123,13 @@ export const Hero = () => {
           {/* Right Column */}
           <div className="flex flex-col gap-2 items-center md:items-end pr-2">
             <div>
-              <a href="mailto:azizismailov872872@gmail.com" className="hover:text-foreground transition-colors tracking-tight">
-                azizismailov872872@gmail.com
-              </a>
+              {isUpworkMode ? (
+                <span className="text-foreground tracking-tight">Available on Upwork</span>
+              ) : (
+                <a href="mailto:azizismailov872872@gmail.com" className="hover:text-foreground transition-colors tracking-tight">
+                  azizismailov872872@gmail.com
+                </a>
+              )}
               <p className="tracking-tight text-muted-foreground/80">{t('location')} 🇰🇷</p>
             </div>
           </div>

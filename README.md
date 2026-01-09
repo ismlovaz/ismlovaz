@@ -2,7 +2,7 @@
 
 ### Full-Stack Software Engineer & SaaS Architect Based in Seoul, South Korea 📍
 
-I specialize in building scalable web applications, SaaS platforms and advanced web applications. I don't just write code; I engineer digital assets with a focus on **stability, data integrity, and maintainability**.
+I specialize in building scalable web applications and SaaS platforms I don't just write code; I engineer digital assets with a focus on **stability, data integrity, and maintainability**.
 
 My philosophy is **"Architecture First"**. I prioritize detailed technical planning and database design before implementation begins, ensuring predictable results and zero "spaghetti code."
 
@@ -44,7 +44,6 @@ Here is why clients and teams enjoy working with me:
 ---
 
 ### 📫 Connect with me
-* **Freelance / Collaboration:** [My Upwork Profile](https://www.upwork.com/freelancers/~0195d40bf6d7c37dca)
 * **Terms of cooperation | Opportunities:** [ismlovaz.vercel.app](https://ismlovaz.vercel.app/en/terms)
 * **Resume:** [ismlovaz.vercel.app](https://ismlovaz.vercel.app/en/resume)
 * **Website:** [ismlovaz.vercel.app](https://ismlovaz.vercel.app/en)
